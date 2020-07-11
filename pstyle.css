@@ -1,0 +1,118 @@
+h1{
+  text-decoration: overline wavy black ;
+  color:black; 
+  text-align:center;
+  font-family:consolas;
+  font-style:italic;
+  font-size:200%;
+  font-variant: small-caps;
+}
+
+p{
+  color:black; 
+  text-align:center;
+  font-family:consolas;
+  font-style:italic;
+  font-size:30px;
+  font-variant: small-caps;
+  width:100%;
+}
+
+table[align='center']{
+  margin:0 auto;
+}
+.tabtext{
+	margin-left:40%;
+}
+.classfont{
+	color:#061A30;
+	font-family: consolas;
+	font-size: 30px;
+}
+.button:hover{
+	background-color: #4C4B54;
+	color:white;
+}
+.button{
+	padding: 20px 20px;
+	border-radius: 20%;
+	font-family: consolas;
+	font-size: 20px;
+}
+
+.textbox{
+	padding: 15px 32px;
+	font-family:consolas;
+	font-size:20px;
+	border:dashed 1px #696969;
+	vertical-align: middle;
+}
+.textbox:hover{
+	font-family:consolas;
+	background-color: #FAEBD7;
+	color:black;
+	vertical-align: middle;
+}
+
+.hw{
+	background-image: url('hws.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+
+table{
+  text-align:center;
+  font-variant: small-caps;
+  color:#061A30;
+  font-family: consolas;
+  font-size: 30px;
+
+}
+
+
+.divrad{
+  white-space: nowrap;
+  padding-left:50%;
+}
+.classfont{
+	color:#061A30;
+	font-family: consolas;
+	font-size: 30px;
+}
+input[type='radio']{
+	visibility: hidden;
+}
+input[type='radio']:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-image: url(no.png);
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+
+
+    input[type='radio']:checked:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-image: url(yes.png);
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }

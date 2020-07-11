@@ -1,0 +1,84 @@
+body{
+	background:url('hws.png');
+	background-attachment:fixed; 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+h1{
+	color:black; 
+	text-align:center;
+	vertical-align: middle;
+	font-family:consolas;
+	font-style:italic;
+	font-size:80px;
+	font-variant: small-caps;
+}
+div,table{
+	text-align: center;
+	font-variant: small-caps;
+	color:#061A30;
+	font-family: consolas;
+	font-size: 30px;
+}
+table{
+	margin-left:40%;
+}
+.button:hover{
+	background-color: #4C4B54;
+	color:white;
+}
+.button{
+	padding: 20px 20px;
+	border-radius: 20%;
+	font-family: consolas;
+	font-size: 20px;
+}
+.buttonside{
+	margin-left:10%;
+	padding: 20px 20px;
+	border-radius: 20%;
+	font-family: consolas;
+	font-size: 20px;
+}
+.textbox{
+	padding: 15px 32px;
+	font-family:consolas;
+	font-size:20px;
+	border:dashed 1px #696969;
+	vertical-align: middle;
+}
+.textbox:hover{
+	font-family:consolas;
+	background-color: #FAEBD7;
+	color:black;
+	vertical-align: middle;
+}
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-image: url(no.png);
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid black;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-image: url(yes.png);
+        background-size: 100% 100%;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid white;
+    }

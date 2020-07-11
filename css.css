@@ -1,0 +1,47 @@
+/*background*/
+.achieve{
+	background-image: url('achv.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+
+
+.fee{
+	background-image: url('fee.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+.tinfo{
+	margin:0;
+	padding:0;
+	background-image: url('tinfo.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+
+.devs{
+	background-image: url('dev.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+
+.hw{
+	background-image: url('hws.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+}

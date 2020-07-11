@@ -1,0 +1,90 @@
+.foter{
+			text-align:center;
+			color:black; 
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-style:italic;
+			font-size:15px;
+			font-variant: small-caps;
+		}
+		.tbla{
+			background-color: black;
+		}
+		.header{
+			vertical-align: bottom;
+			background-color:#AA4B7D;
+			color:#262626; 
+			text-align:center;
+			font-family: "consolas", cursive, sans-serif;
+			font-style:italic;
+			font-size:40px;
+			font-variant: small-caps;
+		}
+
+
+		a:link{
+			color: white;
+			text-decoration: none; 
+		}
+		a:visited{
+			color:white;
+		}
+		a:hover{
+			color: black;
+			text-decoration: none; 
+		} 
+		body{
+			font-family: "consolas", cursive, sans-serif;
+			font-size: 40px; 
+		}
+		.ach{
+			vertical-align: top;
+		}
+		td{
+			font-family: "consolas", cursive, sans-serif;
+			background-color: white;
+	box-shadow:  4px 8px  rgba(0.2, 0.2, 0.2, 0.2);
+
+}
+.achive{
+	background-image: url('wallpaper1.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+.fee{
+	background-image: url('fee.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+	.tinfo{
+	background-image: url('tinfo.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+
+	.devs{
+	background-image: url('dev.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+
+	.hw{
+	background-image: url('hws.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: -1;
+	}
+	

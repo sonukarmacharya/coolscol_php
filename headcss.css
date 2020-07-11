@@ -1,0 +1,142 @@
+* {
+  margin:0;
+  padding:0;
+}
+.navbar{
+  position: fixed; top: 0; left: 0;
+  padding:0.1%;
+}
+ul{
+  color:black; 
+  text-align:center;
+  vertical-align: middle;
+  font-family:consolas;
+  font-style:italic;
+  font-size:140%;
+  font-variant: small-caps;
+  width:100%;
+}
+
+a:link{
+  color: white;
+  text-decoration: none; 
+}
+a:visited{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  background-color: black;
+  color:white;
+  text-decoration: none; 
+} 
+
+.wrap {
+  width:100%;
+  margin:0 auto;
+  text-align:left;
+  color:#989A8F;
+
+}
+
+
+.table {
+  background-color:#ffffff; 
+  height:10%;
+  width:100%;  
+}
+
+ul li {
+  list-style-type:none;
+  float:left;
+  width:13.6%;
+  text-align:center;
+  border:5px solid white;
+}
+
+
+.top,.atop,.htop,.hwtop,.ftop,.ttop,.dtop{
+  background-image: url(hr.png);
+  font-family:consolas;
+  font-style: italic;
+  font-variant: small-caps;
+  height:100%;
+  
+}
+
+
+#homew .hwtop h2{
+  background-image: none;
+  background-color: #fff;
+  border-top:3px solid black;
+
+  } 
+
+#home .htop h2{
+  background-image: none;
+  background-color: #CB6581;
+   border-top:3px solid black;
+
+}
+
+
+#fee .ftop h2{
+  background-image: none; 
+  background-color: #98FFA6;
+   border-top:3px solid black;
+}
+
+#dev .dtop h2{
+  background-image: none;
+  background-color: #C3D7E9;
+   border-top:3px solid black;
+}
+#achv .atop h2{
+  background-image: none;
+  background-color: #FFE055;
+   border-top:3px solid black;
+
+}
+
+#teacherid .ttop h2{
+  background-image: none;
+  background-color: #FFB5FF; 
+   border-top:3px solid black;
+}
+
+
+.circle{
+  width:30%;
+  height:80%;
+  border-radius:50%;
+  font-size:80%;
+  font-family:'bauhaus 93';
+  color:#fff;
+  line-height:400%;
+  text-align:center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left:35%;
+  margin-top:6%;
+}
+.h{
+   background-image: url(homeicon.png);
+}
+.l{
+   background-image: url(logo1.png);
+}
+.d{
+   background-image: url(dicon.png);
+}
+.t{
+   background-image: url(ticon.png);
+}
+.f{
+   background-image: url(feeicon.png);
+}
+.a{
+   background-image: url(achvicon.png);
+}
+.hws{
+   background-image: url(hwicon.png);
+}
